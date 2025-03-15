@@ -1,54 +1,129 @@
-<header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chintala Jayaram Bhavani Prasad - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #0073b1;
+        }
+        .section {
+            margin-top: 30px;
+            padding: 20px;
+            border-radius: 10px;
+            background: #ffffff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .links a, .resume {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .links a {
+            background: #0073b1;
+        }
+        .resume {
+            background: #28a745;
+        }
+        .links a:hover, .resume:hover {
+            opacity: 0.8;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chintala Jayaram Bhavani Prasad</h1>
+        <p>Computer Science Undergraduate | AI & ML Enthusiast</p>
+        
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am an enthusiastic and detail-oriented Computer Science undergraduate specializing in AI & ML. Passionate about problem-solving and innovation, I am eager to apply my knowledge of machine learning, data science, and software development to real-world challenges.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Resume</h2>
+            <a href="JAYARAM_RESUME7.pdf" class="resume" download>Download Resume</a>
+        </div>
+        
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Artificial Intelligence & Machine Learning</li>
+                <li>Deep Learning</li>
+                <li>Web Development</li>
+                <li>Cloud & DevOps</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>B.Tech in Computer Science (AI & ML)</strong> - Nadimpalli Satyanarayana Institute of Technology, Visakhapatnam (GPA: 7.32)</p>
+            <p><strong>Intermediate Education</strong> - Sri Chaitanya Junior College, Anakapalli (GPA: 8.06)</p>
+            <p><strong>Secondary Education</strong> - D.A.V Public School, Anakapalli (GPA: 7.97)</p>
+        </div>
+        
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Accenture Data Analytics & Visualization Job Simulation (March 2025)</strong></li>
+                <li>Analyzed datasets to uncover insights for a social media client.</li>
+                <li>Prepared presentations to communicate insights.</li>
+                <li><strong>Accenture Coding: Development & Advanced Engineering Job Simulation (March 2025)</strong></li>
+                <li>Developed a search feature using Java & Spring Boot.</li>
+                <li>Automated builds with Jenkins.</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Spoken Tutorial - Bootstrap Training</li>
+                <li>Fundamentals of Deep Learning - NVIDIA DLI</li>
+                <li>TestDome - Ranked in Top 25% in Communication</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Goals</h2>
+            <p>I aspire to leverage AI & ML to solve real-world challenges, contribute to innovative projects, and continuously grow as a developer.</p>
+        </div>
+        
+        <div class="section links">
+            <h2>Connect with Me</h2>
+            <a href="https://www.linkedin.com/in/chintalajayarambhavaniprasad" target="_blank">LinkedIn Profile</a>
+            <a href="mailto:jayaramchinthala7890@gmail.com">Email Me</a>
+        </div>
+    </div>
+</body>
+</html>
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
-
-# GitHub Pages
-
-_Create a site or blog from your GitHub repositories with GitHub Pages._
-
-</header>
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-## Step 1: Enable GitHub Pages
-
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
